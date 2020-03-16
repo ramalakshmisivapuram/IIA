@@ -1,0 +1,21 @@
+
+.sidenav{
+    background-color: white;
+    position: fixed;
+    height: 100%;
+    width: 226px;
+    }
+  
+    #navbar{
+      background-color: white;
+      position: fixed;
+      width: 56%;
+      z-index: 1;
+    }
+    .sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        color:orangered;
+        display: block;
+      }

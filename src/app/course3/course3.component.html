@@ -1,0 +1,96 @@
+
+<div class="container-fluid" >
+    <div class="row">
+      <div class="col-lg-1"></div>
+        <div class="col-lg-2">
+  <div class="sidenav" >
+    <img src="assets/logo.jpeg" style="height:80px;padding-left: 33%;">
+  <div style="padding-top:2px;padding-left:10%;padding-bottom:2px;color: orangered;">
+  CERTIFIED COURSES </div>
+  <div class="list-group panel">
+    <a href="#menu1" class="list-group-item collapsed" data-toggle="collapse" data-parent="#sidenav" aria-expanded="false"> <span class="hidden-sm-down">MECHANICAL</span> </a>
+    <div class="collapse" id="menu1">  
+        <a routerLink="/course1" class="list-group-item" data-parent="#menu1">course 1</a>
+        <a routerLink="/course2" class="list-group-item" data-parent="#menu1">course 2</a>
+        <a routerLink="/course3" class="list-group-item" data-parent="#menu1">course 3</a>
+    </div>
+    <a href="#menu2" class="list-group-item collapsed" data-toggle="collapse" data-parent="#sidenav" aria-expanded="false"> <span class="hidden-sm-down">IT</span> </a>
+    <div class="collapse" id="menu2">
+      <a href="#" class="list-group-item" data-parent="#menu1">course 1</a>
+        <a href="#" class="list-group-item" data-parent="#menu1">course 2</a>
+        <a href="#" class="list-group-item" data-parent="#menu1">course 3</a>
+    </div>
+    <a href="#menu3" class="list-group-item collapsed" data-toggle="collapse" data-parent="#sidenav" aria-expanded="false"> <span class="hidden-sm-down">EMBEDDED</span></a>
+    <div class="collapse" id="menu3">
+        <a href="#" class="list-group-item" data-parent="#menu3">course 1</a>
+        <a href="#" class="list-group-item" data-parent="#menu3">course 2</a>
+        <a href="#" class="list-group-item" data-parent="#menu3">course 3</a>
+    </div>
+         
+  </div>
+  </div>
+        </div>
+  <div class="col-lg-7">
+  
+  <div id="navbar" >
+    <a style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif" >INTERNATIONAL INSTITUE OF AUTOMATE</a >
+        <i class="fa fa-map-marker" style="font-size:25px;color: black;padding-left: 50px; "></i>
+        <mat-form-field >
+          <mat-label style="font-size: medium;color: orangered;">Select an location</mat-label>
+          <mat-select [(value)]="selected"  class="form-control" style="color: white;font-size: medium;">
+            <mat-option >None</mat-option>
+            <mat-option routerLink="/location" value="option1">Hyderabad</mat-option>
+            <mat-option routerLink="/location" value="option2">Chennai</mat-option>
+          </mat-select>
+        </mat-form-field>
+    
+        <a routerLink="/login"style="float: right;padding-top:20px;padding-right:10px;padding-right:10px"> <button type="button" class="btn btn-md" style="background-color: orangered;color: white;">LOGIN/REGISTER</button></a> </div>  
+  <div>
+  <img src="assets/iia2000.JPG" style="height:500px;width:100.5%; padding:100px 50px 20px 50px">
+ 
+    <h1 style="color: orangered;">COURSE 3</h1>
+  
+    <div class="card" style="width: 30rem;" style="border:2px solid black;">
+      <div class="card-body">
+        <img src="assets/logo.jpeg" style="height:80px;float: right;padding-right: 5%;">
+        <h1 class="card-title" style="color:  orangered;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ">IIA</h1>
+       
+        <img src="assets/mech.jpg" style="height:400px;width: 650px;">
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+  
+          Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nul </div>
+      <div class="row">
+        <div class="col-sm-4" style="padding-left: 200px;padding-bottom: 5px;">  <button type="button" class="btn btn-md" style="background-color: orangered;color: white;"><a routerLink="/login" class="card-link" style="color: white;">LOGIN</a></button></div>
+        <div class="col-sm-4" style="padding-left: 100px;padding-bottom: 5px;">   <button type="button" class="btn btn-md" style="background-color: orangered;color: white;"><a routerLink="/register" class="card-link" style="color: white;">REGISTER</a></button></div>
+         </div>
+    </div>
+ 
+  <br/>
+  
+  </div>
+  </div>
+  <div class="col-lg-2" style=" background-color: white;">
+  <div style="padding-top: 40%;">
+    <marquee behavior="scroll" direction="down">
+  <img src="assets/iia.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia12.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia15.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia12.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iiaaaa.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia12.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia15.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia15.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia12.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  <img src="assets/iia15.jpg" style="height:150px;width:150px;color:orangered;">&nbsp; &nbsp;&nbsp;&nbsp; rama got placed in accenture
+  
+  </marquee>
+  </div>
+  </div>
+  
+  </div>
+  </div>
+  
+  
+  
+  

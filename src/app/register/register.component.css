@@ -1,0 +1,81 @@
+
+
+.sidenav{
+  background-color: white;
+  position: fixed;
+  height: 100%;
+  width: 226px;
+  }
+
+.btn-group-vertical{
+margin-left:50px;
+padding: 10px 10px 10px 10px;
+color: orangered;
+
+}
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:orangered;
+    display: block;
+  }
+  .sidenav li {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+    display: block;
+  }
+  
+ 
+  
+  
+  .dropdown-menu{
+  
+    background-color: white;
+  
+  } 
+  .dropdown-menu a:hover {
+    color: orangered;
+  }
+
+  .dropdown-menu li{
+  
+    text-decoration: black;
+  } 
+  .dropdown-menu li:hover {
+    color: orangered;
+  }
+  .dropdown-menu li:hover {
+    background: whitesmoke;
+  }
+#navbar{
+  background-color: white;
+  position: fixed;
+  width: 58%;
+ 
+}
+
+#navbar a {
+float: left;
+display: block;
+color: orangered;
+padding: 23px 2px 2px 2px;
+font-size: 17px;
+}
+.main {
+margin-left: 160px; /* Same as the width of the sidenav */
+font-size: 28px; /* Increased text to enable scrolling */
+padding: 0px 10px;
+}
+
+.mat-option{
+color: orangered;
+}
+    .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    }
+    
